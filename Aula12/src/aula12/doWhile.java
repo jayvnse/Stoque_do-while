@@ -1,14 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package aula12;
 
-/**
- *
- * @author jacks
- */
+
 public class doWhile {
-    
+    public static void main(String[] args) {
+        // DO WHILE (faça enquanto)  - Executa o bloco de cógdigo e depois ele checa a expressão. O bloco de código só deixa de ser executado se a expressão for falsa.
+        
+        int i = 1;
+        int maximo = 15;
+        
+        do {
+            System.out.println("Valor de i: " + i);
+            i++;
+        } while (i < maximo);
+        System.out.println(i);
+    } 
 }
+
